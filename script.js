@@ -52,3 +52,11 @@ const calcular = () => {
     }
     };
     
+    document.getElementById('captcha')
+    .addEventListener('keyup', function(event) {
+        if (event.code === 'Enter')
+        {
+            event.preventDefault();
+
+        }
+    });
